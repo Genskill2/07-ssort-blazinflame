@@ -16,5 +16,5 @@ void ssort(int x[], int  l); //making the selection sort function//
 {
   int i;
     for(i=0; i<l; i++)
-      swap_max(a,l,i);
+      swap_max(x,l,i);
 }
