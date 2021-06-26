@@ -1,4 +1,4 @@
-void swap_max(int z[], int l, int n)
+void swap_max(int x[], int l, int n)
 {
 	int i, j;
 	int k=x[n]; 
