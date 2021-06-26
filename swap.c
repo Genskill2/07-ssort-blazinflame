@@ -16,7 +16,7 @@ return 0;
 
 void ssort(int x[], int); //making the selection sort function//
 {
-  int i, n, l
+  int i, l;
     for(i=0; i<l; i++)
     {
       swap(a[],i,l);
