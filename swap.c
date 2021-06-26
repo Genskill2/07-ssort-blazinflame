@@ -11,8 +11,15 @@ void swap_max(int x[], int l, int n);
     }      
       k=x[i];
       x[i]=j;
+return 0;
 }
 
-void ssort(int [], int); //making the selection sort function//
+void ssort(int x[], int); //making the selection sort function//
 {
+  int i, n, l
+    for(i=0; i<l; i++)
+    {
+      swap(a[],i,l);
+    }
+  return 0;
 }
