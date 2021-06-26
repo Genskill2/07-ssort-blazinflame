@@ -1,4 +1,3 @@
-#include <stdio.h> //making the max swap function//
 void swap_max(int x[], int l, int n);
 {
   int i,k,j;
@@ -9,17 +8,14 @@ void swap_max(int x[], int l, int n);
       if(k<x[i])
         j=k;
     }      
-      k=x[i];
+     
       x[i]=j;
 return 0;
 }
 
-void ssort(int x[], int); //making the selection sort function//
+void ssort(int x[], int  l); //making the selection sort function//
 {
-  int i, l;
+  int i;
     for(i=0; i<l; i++)
-    {
-      swap(a[],i,l);
-    }
-  return 0;
+      swap_max(a,l,i);
 }
